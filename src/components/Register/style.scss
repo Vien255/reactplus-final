@@ -1,0 +1,112 @@
+.register {
+  position: relative;
+  width: 390px;
+  height: 850px;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(244, 194, 127, 0.67);
+
+  &_img img {
+    position: absolute;
+    width: 287px;
+    height: 215px;
+    left: 44px;
+    top: 68px;
+  }
+
+  &_text {
+    position: absolute;
+    width: 227px;
+    height: 28px;
+    left: 74px;
+    top: 290px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115.69%;
+    font-weight: 600;
+    /* identical to box height, or 28px */
+
+    text-align: center;
+
+    color: #000000;
+
+    & p {
+      font-size: 15px;
+      font-weight: 300;
+    }
+  }
+
+  &_form {
+    position: absolute;
+    width: 325px;
+    height: 51px;
+    left: 30px;
+    top: 410px;
+
+    & input {
+      margin-top: 15px;
+      border-radius: 10px;
+      padding: 7px;
+    }
+  }
+  span {
+    padding: 0;
+    border-radius: 10px;
+    margin-top: 15px;
+    svg {
+      margin-right: 15px;
+    }
+  }
+
+  &_btn button {
+    position: absolute;
+    width: 322px;
+    height: 56px;
+    left: 2px;
+    top: 245px;
+    background: linear-gradient(267.72deg, #d8605b -0.89%, #f4c27f 112.29%);
+    mix-blend-mode: normal;
+    box-shadow: 0px 6px 10px rgb(0 0 0 / 15%);
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    color: #ffff;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &_account {
+    position: absolute;
+    width: 267px;
+    height: 16px;
+    left: 54px;
+    top: 777px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 115.69%;
+    /* or 16px */
+
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #000000;
+
+    a {
+      color: #d8605b;
+      text-decoration: none;
+    }
+  }
+  .err {
+    color: red;
+    padding-left: 10px;
+  }
+}

@@ -1,0 +1,54 @@
+.welcome {
+  position: relative;
+  height: 852px;
+  width: 390px;
+  left: 0px;
+  top: 0px;
+  background: rgba(244, 194, 127, 0.67);
+
+  &_img {
+    position: absolute;
+    width: 371px;
+    height: 278px;
+    left: 2px;
+    top: 160px;
+    background-image: url(../../assets/images/Done.svg);
+  }
+
+  &_content {
+    position: absolute;
+    height: 49px;
+    top: 451px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 115.69%;
+
+    text-align: center;
+
+    color: #000000;
+  }
+
+  &_btn button {
+    position: absolute;
+    width: 315px;
+    height: 56px;
+    left: 30px;
+    top: 700px;
+
+    background: linear-gradient(267.72deg, #d8605b -0.89%, #f4c27f 112.29%);
+    mix-blend-mode: normal;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  &_btn a {
+    text-decoration: none;
+    font-weight: 700;
+  }
+}
